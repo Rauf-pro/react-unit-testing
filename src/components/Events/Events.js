@@ -18,6 +18,15 @@ export default function Events() {
             >
                 Increment
             </Button>
+            <Button
+                className='decrement-btn'
+                variant='contained'
+                color='primary'
+                aria-label='decrement-btn'
+                onClick={() => setCounter(counter - 1)}
+            >
+                Decrement
+            </Button>
         </div>
     )
 }
