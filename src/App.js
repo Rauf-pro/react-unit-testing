@@ -9,7 +9,7 @@ function App() {
 
       <section className="main">
         {/** Props Testing */}
-        <Props header="Props Testing" desc="Validating props in React !" />
+        <Props header="Props Testing" description="Validating props in React !" />
         <br />
         <hr />
       </section>
