@@ -2,6 +2,7 @@ import "./App.css";
 import Events from "./components/Events/Events";
 import Header from "./components/Header/Header";
 import Props from "./components/Props/Props";
+import Snapshot from "./components/Snapshot/Snapshot";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         <Events />
         <br />
         <hr />
+        {/** Snapshot Testing */}
+        <Snapshot />
+        <br /><hr />
       </section>
     </div>
   );

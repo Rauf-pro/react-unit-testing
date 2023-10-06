@@ -30,7 +30,7 @@ describe("Events Component", () => {
     const incrementBtn = screen.getByRole("button", {
       name: /Increment/i,
     });
-    await incrementBtn.click(incrementBtn);
+    await userEvent.click(incrementBtn);
     expect(screen.getByText(1)).toBeInTheDocument();
   });
 
@@ -44,7 +44,7 @@ describe("Events Component", () => {
     const decrementBtn = screen.getByRole("button", {
       name: /Decrement/i,
     });
-    await decrementBtn.click(decrementBtn);
+    await userEvent.click(decrementBtn);
     expect(screen.getByText(-1)).toBeInTheDocument();
   });
 });
