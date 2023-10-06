@@ -24,7 +24,8 @@ function App() {
         <hr />
         {/** Snapshot Testing */}
         <Snapshot />
-        <br /><hr />
+        <br />
+        <hr />
         {/** RestAPI Testing */}
         <RestAPI />
       </section>
