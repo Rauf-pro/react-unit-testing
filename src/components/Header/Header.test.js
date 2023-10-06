@@ -24,4 +24,15 @@ describe('Header Component', () => {
         render(<Header />);
         expect(screen.getByText("React Unit Testing using Jest")).toBeInTheDocument();
     })
+
+     /**
+     * toHaveStyle(): using Accessibility
+     */
+     test('should have a login button', () => {
+        render(<Header />);
+        const loginButton = screen.getByRole('button', {
+            name: 'Login'
+        })
+        expect(loginButton).toBeInTheDocument();
+    })
 });
