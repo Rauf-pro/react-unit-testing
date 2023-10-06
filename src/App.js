@@ -2,6 +2,7 @@ import "./App.css";
 import Events from "./components/Events/Events";
 import Header from "./components/Header/Header";
 import Props from "./components/Props/Props";
+import RestAPI from "./components/RestAPI/RestAPI";
 import Snapshot from "./components/Snapshot/Snapshot";
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
         {/** Snapshot Testing */}
         <Snapshot />
         <br /><hr />
+        {/** RestAPI Testing */}
+        <RestAPI />
       </section>
     </div>
   );
