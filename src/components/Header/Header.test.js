@@ -16,4 +16,12 @@ describe('Header Component', () => {
         render(<Header />);
         expect(screen.getByLabelText("menu")).toBeInTheDocument();
     })
+
+    /**
+     * getByText()
+     */
+    test('should check the text', () => {
+        render(<Header />);
+        expect(screen.getByText("React Unit Testing using Jest")).toBeInTheDocument();
+    })
 });
