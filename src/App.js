@@ -1,10 +1,18 @@
 import "./App.css";
 import Header from "./components/Header/Header";
+import Props from "./components/Props/Props";
 
 function App() {
   return (
     <div className="App">
       <Header />
+
+      <section className="main">
+        {/** Props Testing */}
+        <Props header="Props Testing" desc="Validating props in React !" />
+        <br />
+        <hr />
+      </section>
     </div>
   );
 }
