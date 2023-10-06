@@ -1,4 +1,4 @@
-import { cleanup, render, screen, fireEvent } from "@testing-library/react";
+import { cleanup, render, screen, fireEvent, act } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import Events from "./Events";
 afterEach(cleanup);
@@ -30,7 +30,9 @@ describe("Events Component", () => {
     const incrementBtn = screen.getByRole("button", {
       name: /Increment/i,
     });
-    await userEvent.click(incrementBtn);
+    await act(async () => {
+      await userEvent.click(incrementBtn);
+    });
     expect(screen.getByText(1)).toBeInTheDocument();
   });
 
@@ -44,7 +46,9 @@ describe("Events Component", () => {
     const decrementBtn = screen.getByRole("button", {
       name: /Decrement/i,
     });
-    await userEvent.click(decrementBtn);
+    await act(async () => {
+      await userEvent.click(decrementBtn);
+    });
     expect(screen.getByText(-1)).toBeInTheDocument();
   });
 });
