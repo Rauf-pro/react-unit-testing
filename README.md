@@ -1,6 +1,6 @@
 # React Unit Test with Jest
 
-![image](https://github.com/Rauf-pro/react-unit-testing/assets/screenphoto.png)
+![image](https://github.com/Rauf-pro/react-unit-testing/assets/screenphoto)
 
 
 
