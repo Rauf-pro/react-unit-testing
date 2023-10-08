@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
-
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
 
 export default function RestAPI() {
-  const axios = require('axios');
 
   const [users, setUsers] = useState(null);
   const [error, setError] = useState(null);
@@ -16,7 +15,7 @@ export default function RestAPI() {
       const response = await axios.get(`https://jsonplaceholder.typicode.com/users`)
       setUsers(response.data)
     } catch (error) {
-      setError(error.message);
+        setError(error.message);
       console.log("Something went wrong!");
     }
   }
