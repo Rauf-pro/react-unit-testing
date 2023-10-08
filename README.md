@@ -20,11 +20,14 @@ npm test
 npm run test -- --coverage --watchAll=false
 
 
-## Learn More
+## Project Covers
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Component Testing
+Props Testing
+Snapshot Testing
+Event Testing
+Mocking function
+Rest API Testing
 
 ### Code Splitting
 
