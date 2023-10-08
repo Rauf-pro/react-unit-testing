@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
 export default function RestAPI() {
-
   const [users, setUsers] = useState(null);
   const [error, setError] = useState(null);
 

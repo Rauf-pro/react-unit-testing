@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import App from './App'
 import Header from './components/Header/Header'
 import Props from './components/Props/Props'
