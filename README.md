@@ -22,11 +22,10 @@ npm run test -- --coverage --watchAll=false
 
 ## Project Covers
 
-#Component Testing
-#Props Testing
-#Snapshot Testing
-#Event Testing
-#Mocking function
-#Rest API Testing
+* sxnsxnsx
+* svsvsf
+* svsvs
+* sfvvf
+
 
 
