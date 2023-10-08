@@ -29,5 +29,23 @@ npm run test -- --coverage --watchAll=false
 * Mocking function
 * Rest API Testing
 
+## Folder Structure
 
+ + src
+   + components
+     + Events
+	   + __snapshots__
+	   - Events.js  
+	   - Events.test.js
+	 + Header
+	   - Header.js
+	   - Header.test.js
+	 + Props
+	   - Props.js
+	   - Props.test.js
+	 + RestAPI
+	   - RestAPI.js
+	   - RestAPI.test.js
+   + __mocks__
+     - axios.js
 
