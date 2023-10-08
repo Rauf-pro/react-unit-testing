@@ -49,3 +49,10 @@ npm run test -- --coverage --watchAll=false
    + __mocks__
      - axios.js
 
+## Technology
+
+* React
+* Jest
+* Material-UI
+* Axios
+* React Testing Library
