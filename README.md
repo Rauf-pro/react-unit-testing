@@ -22,10 +22,12 @@ npm run test -- --coverage --watchAll=false
 
 ## Project Covers
 
-* sxnsxnsx
-* svsvsf
-* svsvs
-* sfvvf
+* Component Testing
+* Props Testing
+* Snapshot Testing
+* Event Testing
+* Mocking function
+* Rest API Testing
 
 
 
